@@ -1,0 +1,42 @@
+.card {
+    max-width: 700px;
+    margin: 1rem 0;
+}
+
+.card p {
+    font-weight: 700;
+    margin: 0;
+    text-transform: lowercase;
+}
+
+.article-image,
+.default-image {
+    border-radius: 10px;
+    object-fit: cover;
+    width: 700px;
+}
+
+
+.article-image {
+    height: 300px;
+}
+
+.default-image {
+    height: 500px;
+}
+
+@media screen and (max-width: 768px){
+    .card,
+    .article-image,
+    .default-image {
+        width: 100%;
+    }
+
+    .article-image {
+        height: 200px;
+    }
+
+    .default-image {
+        height: 400px;
+    }
+}
