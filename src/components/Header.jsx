@@ -12,7 +12,7 @@ export const Header = () => {
                 <a href="#">
                     Family
                 </a>
-                <a href="#">
+                <a href="https://www.instagram.com/">
                     About/Submission
                 </a>
             </div>

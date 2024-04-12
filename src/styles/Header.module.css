@@ -8,7 +8,6 @@
     text-transform: uppercase;
 }
 a {
-    width: 160px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -17,4 +16,12 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+}
+
+@media screen and (max-width: 768px){
+   a {
+    font-size: 14px;
+   }
 }
