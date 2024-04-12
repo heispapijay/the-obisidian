@@ -9,8 +9,9 @@ export const BlogCard = ({ title, slug, isArticle, coverImage }) => {
         <div className='card'>
             <Link to={`/posts/${slug}`}>
                 <img className={imageClassName} src={coverImage.url} alt={title} />
+                <p>{title}</p>
             </Link>
-            <p>{title}</p>
+            
         </div>
     );
 };
