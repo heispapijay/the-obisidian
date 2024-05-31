@@ -2,7 +2,7 @@ import { GraphQLClient, gql } from 'graphql-request'
 
 // const endpoint = process.env.MY_API_ENDPOINT
 
-export const graphcms = new GraphQLClient('https://api-us-east-1-shared-usea1-02.hygraph.com/v2/clu7ihqtc09iq07uqui20btaj/master')
+export const graphcms = new GraphQLClient('ENDPOINT')
 
 const posts = `
     id,
